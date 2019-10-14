@@ -10,20 +10,27 @@ https://github.com/shwetaruparel/SLAM-using-RTABmap/blob/master/SLAM_mapmyworld.
 ## Steps to create the package slam_project and executing the SLAM for kitechen-dining and Gas-Station Test Environments.
 
 1. Build your catkin workspace and initialise
+
 $ mkdir -p ~/home/workspace/catkin_ws/src
+
 $ cd /home/workspace/catkin_ws/src
+
 $ catkin_init_workspace
+
 $ cd ..
+
 $ catkin_make
 
 Perform a System Update/Upgrade
+
 $ apt-get update
+
 $ apt-get upgrade -y
 
-Clone slam_project in src
-$ cd src/
-$ git clone https://github.com/turtlebot/turtlebot_simulator
-$ git clone https://github.com/turtlebot/turtlebot
+Download the Project and copy slam_project in src
 
-2. Initialise to create Makefiles
-Got to your workspace directorycd /home/workspace/
+Build the packages
+
+$ catkin_make
+
+$ source devel/setup.bash

@@ -9,7 +9,7 @@ https://github.com/shwetaruparel/SLAM-using-RTABmap/blob/master/SLAM_mapmyworld.
 
 ## Steps to create the package slam_project and executing the SLAM for kitechen-dining and Gas-Station Test Environments.
 
-1. Build your catkin workspace and initialise
+Build your catkin workspace and initialise
 
 $ mkdir -p ~/home/workspace/catkin_ws/src
 
@@ -76,7 +76,13 @@ After minium 3 loop closures , check the following on a different termninal.
 
 $ rtabmap-databaseViewer ~/.ros/rtabmap.db
 
+Once open, add some windows to get a better view of the relevant information, so:
 
+Say yes to using the database parameters
+View -> Constraint View
+View -> Graph View
+
+Enjoy mapping the environment and experiment with mapping parameters 
 
 
 

@@ -82,6 +82,16 @@ Say yes to using the database parameters
 View -> Constraint View
 View -> Graph View
 
+The following links are the resulting mapped database
+
+#### Resulting mapped database for Gas Station environment
+
+https://drive.google.com/open?id=1SrYGSIBDQQpj8JyYPE3xfzI_YuoBcfOx
+
+#### Resulting mapped database for Kitchen dining environment
+
+https://drive.google.com/file/d/1Dky8QH0z0eePN_qenzZjJSztUOAdD2ru/view?usp=sharing
+
 Enjoy mapping the environment and experiment with mapping parameters 
 
 
